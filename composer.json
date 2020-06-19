@@ -1,0 +1,35 @@
+{
+    "name": "yr4ik/MeestExpress",
+    "type": "library",
+    "description": "Library Meest Express API",
+    "keywords": [
+        "api",
+        "library",
+        "delivery",
+        "meest",
+        "meest api",
+        "meest express api"
+    ],
+    "homepage": "https://github.com/yr4ik/meest-express-php-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WebProduction",
+            "email": "office@webproduction.com.ua",
+            "homepage": "https://github.com/webproduction"
+        },
+        {
+            "name": "Polevik Yurii",
+            "email": "yr4ik_07@ukr.net",
+            "homepage": "https://github.com/yr4ik"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MeestExpress\\": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "./"
+    }
+}
