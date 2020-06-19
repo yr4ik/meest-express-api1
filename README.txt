@@ -1,5 +1,14 @@
-<?php
-require(dirname(__FILE__).'/include.php');
+
+### Composer
+composer require yr4ik/meest-express-php-api
+
+
+### Example
+```php
+
+use MeestExpress\MeestExpress;
+
+include_once 'vendor/autoload.php';
 
 $login = 'user1';
 $password = 'pass1';
@@ -67,3 +76,5 @@ try {
 var_dump($api->shipmentTracking($orderID)); // НАШ orderID!
 
 print "\n\ndone.\n\n";
+
+```
