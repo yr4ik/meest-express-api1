@@ -14,6 +14,9 @@
  * @copyright WebProduction
  * @package   MeestExpress
  */
+ 
+namespace MeestExpress;
+ 
 class MeestExpress_Exception extends Exception {
 
     public function __construct($message, $code = 0) {

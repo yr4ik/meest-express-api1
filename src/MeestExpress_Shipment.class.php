@@ -7,6 +7,10 @@
  * @copyright WebProduction
  * @package   MeestExpress
  */
+ 
+namespace MeestExpress;
+ 
+ 
 class MeestExpress_Shipment extends ArrayObject {
 
     public function __construct(MeestExpress_API $api) {

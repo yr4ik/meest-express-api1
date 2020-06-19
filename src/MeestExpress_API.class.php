@@ -1,4 +1,5 @@
 <?php
+
 /**
  * API Meest Express
  *
@@ -6,7 +7,20 @@
  * @copyright WebProduction
  * @package   MeestExpress
  */
+ 
+namespace MeestExpress;
+ 
 class MeestExpress_API {
+
+
+    private $_login;
+
+    private $_password;
+
+    private $_clientUID;
+
+    private $_language;
+	
 
     public function __construct($login, $password, $clientUID, $language = 'ru') {
         $this->_login = $login;
@@ -284,12 +298,5 @@ class MeestExpress_API {
         return htmlspecialchars($string);
     }
 
-    private $_login;
-
-    private $_password;
-
-    private $_clientUID;
-
-    private $_language;
 
 }
