@@ -17,7 +17,7 @@
  
 namespace MeestExpress;
  
-class MeestExpress_Exception extends Exception {
+class MeestExpress_Exception extends \Exception {
 
     public function __construct($message, $code = 0) {
         parent::__construct('MeestExpress: '.$message, $code);
