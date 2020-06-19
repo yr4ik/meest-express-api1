@@ -9,7 +9,10 @@
  */
  
 namespace MeestExpress;
- 
+
+use MeestExpress\MeestExpress_API;
+
+
  
 class MeestExpress_Shipment extends ArrayObject {
 

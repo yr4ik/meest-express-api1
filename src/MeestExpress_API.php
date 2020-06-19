@@ -9,6 +9,9 @@
  */
  
 namespace MeestExpress;
+
+use MeestExpress\MeestExpress_Exception;
+
  
 class MeestExpress_API {
 

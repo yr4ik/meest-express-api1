@@ -6,7 +6,8 @@ composer require yr4ik/meest-express-php-api
 ### Example
 ```php
 
-use MeestExpress\MeestExpress;
+use MeestExpress\MeestExpress_API;
+use MeestExpress\MeestExpress_Shipment;
 
 include_once 'vendor/autoload.php';
 
